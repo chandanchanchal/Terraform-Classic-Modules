@@ -1,7 +1,7 @@
 module "vpc" {
   source = "./modules/vpc"
   ###VPC###
-  instance-tenancy = "default"
+  instance-tenancy = "default
   enable-dns-support = "true"
   enable-dns-hostnames = "true"
   vpc-name = "Cloudelligent-vpc"
